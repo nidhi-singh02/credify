@@ -1,0 +1,78 @@
+/* LoginPage.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Background color for the whole page */
+}
+
+.login-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* White background for the login box */
+}
+
+.filter-options {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 15px; /* Slightly increased margin for labels */
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+
+.user-type-options label {
+  display: inline-block; 
+  margin-right: 50px; 
+  margin-bottom: 30px;
+}
+
+input[type="radio"] {
+  width: 20px; /* Adjust the width */
+  height: 20px; /* Adjust the height */
+  margin-right: 10px; /* Add spacing between radio button and label */
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  width: 80%; /* Full width input fields */
+  padding: 10px;
+  margin-bottom: 14px; /* Slightly increased margin */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 85%; /* Full width button */
+  font-size: 16px;
+  border-radius: 4px;
+  height: 50px;
+  margin-top: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+/* Additional styling for better button interaction */
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.login-heading {
+  margin-bottom: 30px;
+  color: darkblue;
+}
