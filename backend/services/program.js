@@ -41,6 +41,5 @@ async function create(username, name, startdate, enddate, place, credentials) {
 
 module.exports = {
   registerschema,
-  create,
-  listall
+  create
 }  
