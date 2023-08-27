@@ -10,7 +10,8 @@ async function create(user) {
   if (result.affectedRows) {
     msg = true;
   }
-  } catch {
+  } catch(err){
+    console.log("DB error",err)
     return msg
   }
   return msg
